@@ -10,7 +10,7 @@ int main(int argc, char* args[]){
     memset(&hints, 0, sizeof hints);    
     hints.ai_family = AF_UNSPEC;        
     hints.ai_socktype = SOCK_DGRAM;     
-    hints.ai_flags = AI_PASSIVE; //autofill IP, from Harinder's manual  
+    hints.ai_flags = AI_PASSIVE; //autofill IP
 
     if(argc < 4){   //total # of arguments
         printf("Sorry, did you enter in the IP Address properly?\n");
